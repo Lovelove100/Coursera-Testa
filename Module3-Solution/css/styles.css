@@ -1,0 +1,83 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Helvetica', sans-serif;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 2px solid black;
+}
+
+#nav-list span{
+	color: black;
+}
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 0;
+}
+/*#nav-list a {
+	border-top:2px solid black;
+	text-align: center;
+}*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-nav {
+	margin-top: 0;
+}
+
+.row {
+	border: 2px solid black;
+	background-color: #2F4F4F;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.6em;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.psalm {
+	line-height: 2;
+}
+
+/***********@media queries***********/
+@media (max-width: 575px) {
+#nav-list a {
+	border-top:2px solid black;
+	text-align: center;
+}
+/*.navbar-default, .navbar-toggle {
+	border-color: black;
+}*/
+.navbar-header button.navbar-toggle, .icon-bar {
+	border: 1px solid black;
+}
+#collapsable-nav{
+	background-color: #708090;
+}
+
+	}
+
+@media (min-width: 575px) and (max-width: 767px) {
+	.navbar-toggle, button, #nav-list {
+		display: none;
+	}
+
+}
